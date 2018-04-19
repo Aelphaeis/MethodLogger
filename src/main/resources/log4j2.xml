@@ -7,8 +7,6 @@
 		</Console>
 	</Appenders>
 	<Loggers>
-		<Logger name="com.cruat.methodlogger.MethodLogger.t1" level="TRACE" />
-		<Logger name="com.cruat.methodlogger.MethodLogger.t2" level="trace" />
 		<Root level="trace">
 			<AppenderRef ref="console" />
 		</Root>
