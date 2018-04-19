@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout pattern="[%-5p] %d{yyyy-MM-dd HH:mm:ss.SSS} %l: %m%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Logger name="com.cruat.methodlogger.MethodLogger.t1" level="TRACE" />
+		<Logger name="com.cruat.methodlogger.MethodLogger.t2" level="trace" />
+		<Root level="trace">
+			<AppenderRef ref="console" />
+		</Root>
+	</Loggers>
+</Configuration>	
